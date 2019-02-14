@@ -1,11 +1,11 @@
 const Discord = require("discord.js")
 const client = new Discord.Client();
-var prefix = "A"
+var prefix = "M"
 
 
 
 client.on('message', function(message) {
-    const myID = "462038057529507841";
+    const myID = "529263972172693504";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "sn")) {
                 if(message.author.id !== myID) return;
